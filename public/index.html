@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Advisor</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="container">
         <h1>Fashion Advisor</h1>
-        <div class="input-area">
-            <textarea id="user-input" placeholder="Ask me anything about fashion..."></textarea>
-            <button id="submit-btn">Get Advice</button>
-        </div>
+        <form id="advice-form">
+            <div class="input-area">
+                <textarea id="user-input" placeholder="Ask me anything about fashion..."></textarea>
+                <button type="submit" id="submit-btn">Get Advice</button>
+            </div>
+        </form>
         <div class="output-area">
             <h2>Advice:</h2>
             <p id="output"></p>

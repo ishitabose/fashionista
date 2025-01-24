@@ -86,3 +86,5 @@ const {
   }
   
   run("I am having a black jacket");
+
+  module.exports = {run}
